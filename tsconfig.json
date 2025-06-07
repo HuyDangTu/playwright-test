@@ -9,6 +9,6 @@
       "outDir": "dist",
       "skipLibCheck": true
     },
-    "include": ["tests"]
+    "include": ["tests", "../playwright.config.ts"]
   }
   
