@@ -7,7 +7,7 @@ export default defineConfig({
     headless: false, // show browser
     viewport: { width: 1280, height: 720 },
     launchOptions: {
-      slowMo: 2000, // 👈 slow down by 500ms between steps
+      slowMo: 1000, // 👈 slow down by 500ms between steps
     }
   },
 });
