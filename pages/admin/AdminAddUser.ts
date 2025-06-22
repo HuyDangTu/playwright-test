@@ -31,6 +31,7 @@ export class AddUser{
         await uiAction.txtEnter(this.password, password);
         await uiAction.txtEnter(this.confirmPassword, password);
         //await uiAction.btnClick(this.SaveBtn);
+         //await uiAction.btnClick(this.SaveBtn);
     }
 
     async isFilled(confirmPassword: string): Promise<boolean>{

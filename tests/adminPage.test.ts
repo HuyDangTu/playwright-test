@@ -14,7 +14,7 @@ test.describe('This is test navigate to Admin Page', () => {
   
     await leftMenu.goToAdminPage();
     
-    //expect(await leftMenu.isOnAdminPage());
+    //expect(await leftMenu.isOnAdminPage());  
     const adminViewSystemUsers = new AdminViewSystemUsers(page);
 
     await adminViewSystemUsers.clickAddBtn();
